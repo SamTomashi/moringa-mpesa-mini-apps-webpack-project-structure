@@ -5,11 +5,5 @@ export default class Car{
         this.year = year;
     }
 
-    getModel(){
-        return this.model;
-    }
-
-    getYear(){
-       return this.year
-    }
+ 
 }
