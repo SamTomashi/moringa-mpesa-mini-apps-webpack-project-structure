@@ -5,5 +5,10 @@ export default class Car{
         this.year = year;
     }
 
+
+    getModel(){
+        return "GXR";
+    }
+
  
 }

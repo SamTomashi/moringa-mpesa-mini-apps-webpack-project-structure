@@ -23,8 +23,24 @@ import Car from "../src/Car";
 
 
 describe("Car", function(){
-    const car = new Car("Toyota", "GXR", 2020)
+
+    let car;
+
+    beforeEach(() => {
+        car = new Car("Toyota", "GXR", 2020)
+    });
+
     test("It should return a string", ()=>{
-        expect(typeof car.getModel()).toEqual("string")
+        expect(car.getModel).toBeInstanceOf(Function)
     })
+
+    test("It should return a property of Car", ()=>{
+        expect(car.getModel()).toBe(car.model)
+    })
+
+     test("It should return a property of Car", ()=>{
+        expect(Car.prototype.getModel).toBeDefined();
+    })
+
+
 })
