@@ -1,6 +1,4 @@
 // import Car from './Car';
-// import Person from './Person';
-// import Animal from './Animal';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./css/styles.css";
@@ -12,4 +10,8 @@ import "./css/styles.css";
 //     alert(car.getYear());
 
 // });
+
+/**
+    TDD Wokflow: Red, Green, Refactor
+ */
 

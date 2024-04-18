@@ -3,13 +3,13 @@ export default class Car{
         this.make = make;
         this.model = model;
         this.year = year;
-    }  
-
-    getYear(){
-        return this.year;
     }
 
-    setYear(year){
-        this.year = year;
+    getModel(){
+        return this.model;
+    }
+
+    getYear(){
+       return this.year
     }
 }
